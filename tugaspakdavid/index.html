@@ -1,0 +1,284 @@
+<html>
+  <head>
+    <link href='http://fonts.googleapis.com/css?family=Merienda' rel='stylesheet' type='text/css'>
+  	<style type="text/css">
+       body{
+       	background: #333333;
+       	margin: 0px;
+       }
+
+       #wrapper{
+       	background: white;
+       	width: 960px;
+       	margin: 0 auto;
+       	padding:20px 10px 0px;
+       }
+
+       #headerImage{
+        width: 140px;
+        height: auto;
+        float: left;
+      }
+       #judulweb{
+        font-size: 16px;
+        text-align: center;
+
+       	
+       }
+
+       #menu{
+       	background: #333333;
+
+        margin: 50px ;
+       	padding: 8px;
+        text-align: center;
+       }
+
+       #menu a{
+       	font-family: arial;
+       	font-weight: bold;
+       	text-transform: uppercase;
+       	font-size: 10px;
+        text-decoration: none;
+        color:white;
+        border-left: 1px dotted white;
+        padding-left: 10px;
+        margin-right: 10px;
+       }
+
+       #menu a:hover{
+       	color:#cb3000;
+       }
+
+       #content{
+       	border: 1px dashed #cecec2;
+
+       }
+
+      
+
+       #mainContent{
+       	float:center;
+       	width: 675px;
+       	padding: 100px;
+        }
+
+       /*#mainContent ul{
+        padding:0px;
+        margin-left: 15px;
+       }*/
+
+       #mainContent .postGrid{
+         list-style-type: none;
+         display: block;
+         width: 300px;
+         height: 510px;
+         float: left;
+         /*border-bottom: 1px dashed #cecec2;*/
+         padding:5px 15px;
+         color: #363231;
+         overflow: hidden;
+
+        color:#5C5054;
+       }
+
+       #mainContent .postGrid a{
+        text-decoration: none;
+        color: #cb3000;
+       }
+
+       #mainContent .postGrid .tanggal{
+        float: left;
+        border-right:1px solid #cecec2;
+        margin-right: 10px;
+        padding-right:10px; 
+       }
+
+       #mainContent .postGrid .tanggal .date{
+        background: url("date.png") no-repeat;
+        width: 47px;
+        height: 47px;
+        text-align: center;
+        padding-top: 5px;
+        display: block;
+        color: white;
+        font-family: arial;
+        font-size: 24px;
+        float:left;
+       }
+
+       #mainContent .postGrid .tanggal .bulan{
+        float: left;
+        margin-left: 5px;
+        font-family: arial;
+        color: grey;
+       }
+
+       #mainContent .postGrid .penulis{
+        float:left;
+        margin-right: 5px;
+        margin-bottom: 5px;
+       }
+
+       #mainContent .postGrid .komen{
+       }
+
+       #mainContent .last{
+       	border-left: 1px dashed #cecec2;
+       }
+
+       #mainContent .separator{
+        background: url("dot.png") 0 100% repeat-x;
+        height: 30px;
+        margin-bottom: 30px;
+        clear: both;
+       }
+
+       #mainContent .thumb{
+        padding: 5px;
+        border: 1px dashed #cecec2;
+        margin-top: 15px;
+       }
+
+       #mainContent h3{
+        font-family: 'Merienda', cursive;
+        color: #2c353e;
+       }
+
+       #mainContent #pagination{
+        margin-left: 30px;
+       }
+
+       #mainContent #pagination a{
+        text-decoration: none;
+        color:#cb3000;
+        font-family: arial;
+        font-weight: bold;
+        border-right: 1px dotted #cecec2;
+        margin-right: 10px;
+        padding-right: 10px;
+       }
+
+       #mainContent #pagination a:hover{
+        color: black;
+       }
+
+       #mainContent #banner img{
+        margin-left: 10px;
+        margin-top: 20px;
+        border: 1px dotted #cecec2;
+        padding: 10px;
+        margin-bottom: 20px;
+       }
+
+       #footer{
+        clear: both;
+        background: url("footer.png");
+        height: 8px;
+        padding: 8px;
+        padding-top: 8px;
+       }
+
+  	</style>
+  <head>
+  <body>
+     <div id="wrapper">
+
+         <div id="header">
+
+         	<div id="headerImage">
+         		<div class="bagianlogo">
+      <img class="logo" src="Header2.png" alt="Gambar logo" />
+    </div>
+          </div>
+          <div class="bagian judul">
+            <h1 class="judulweb">Blog Kang Naufal</h1>
+            <p class="slogan">Yuk Belajar Ngoding</p>
+         	</div> <!-- akhir headerImage-->
+
+         	<div id="menu">
+         		<a href="#">Tutorial HTML</a>
+         		<a href="#">Tutorial JAVA</a>
+         		<a href="#">Tutorial PHP</a>
+            <a href="#">Tutorial C++</a>
+         	</div>
+
+         
+            <div id="mainContent">
+            	
+            		<div class="postGrid">
+                  <div class="meta">
+                    <div class="tanggal">
+                      <span class="date">16</span> 
+                      <span class="bulan"><div>Nov</div> <div>2020</div></span>
+                    </div>
+                    <div class="penulis">Ditulis oleh : Naufal Azzam</div>
+                    <div class="komen"><img src="komen.png"/> <a href="#">Ada 100  komentar</a></div>
+                  </div>
+
+                  <img class="thumb" src="thumb.jpg"/>
+                  <h3>Desain Web Tutorial : Contoh Desain Web Dengan HTML+CSS</h3>
+                
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            	     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            	     tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            	     quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            	     consequat. </div>
+
+            		<div class="postGrid last">
+                  <div class="meta">
+                    <div class="tanggal">
+                      <span class="date">17</span> 
+                      <span class="bulan"><div>Nov</div> <div>2020</div></span>
+                    </div>
+                    <div class="penulis">Ditulis oleh : Naufal Azzam</div>
+                    <div class="komen"><img src="komen.png"/> <a href="#">Ada 100  komentar</a></div>
+                  </div>
+
+                  <img class="thumb" src="thumb.jpg"/>
+                  <h3>Desain Web Tutorial : Contoh Desain Web Dengan HTML+CSS</h3>
+                  
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+            		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+            		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+            		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+            		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+            		consequat. </div>
+                
+              
+
+                <div class="separator"></div>
+
+                <div id="pagination">
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">6</a>
+                    <a href="#">7</a>
+                </div>
+
+                
+            	
+            </div> <!-- akhir mainContent -->
+
+         </div> <!-- akhir content -->
+
+         <div id="footer">
+          Naufal @Copyright 2020
+         </div> <!-- akhir footer -->
+
+     </div> <!-- akhir wrapper -->
+
+  </body>
+</html>
